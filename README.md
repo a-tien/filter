@@ -1,9 +1,12 @@
-## 成果:
-![image](https://github.com/a-tien/filter/assets/87262409/8e40a6f8-d539-4266-83eb-0d4953c240be)
-![image](https://github.com/a-tien/filter/assets/87262409/af85a5f0-6789-44c1-8870-5a047d0e1f30)
-![image](https://github.com/a-tien/filter/assets/87262409/949e73e8-8116-466f-bc58-1f3e39480f26)
+**Goal: To find out the rotating angle from player to shrine**
+## Input
+![image](https://github.com/a-tien/filter/assets/87262409/d1f4d76d-3079-4962-94bd-cb5017e15cfa)
 
-# 使用到的cv2函式
+## Output
+![image](https://github.com/a-tien/filter/assets/87262409/a3d49605-ba3a-4489-8ae3-7c49860e3681)
+
+
+# CV2 function in this project
 cv2.inRange() -> 只擷取想要的顏色區間
 ![image](https://github.com/a-tien/filter/assets/87262409/ab15cb56-bfb1-416f-b3f6-b3926aea3a29)
 cv2.findContours()跟cv2.moment()結合取得質心的x,y座標
